@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/landing-page-two'>
        <Routes>
         <Route index element={<Home/>}></Route>
        </Routes>
